@@ -1,0 +1,64 @@
+body {
+    background-color: aquamarine;
+}
+.container {
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.images-container {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+.image-frame{
+    width: 800px;
+    height: 40vh;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    position: relative;
+    
+    
+}
+.slide {
+    width: 800px;
+    height: 40vh;
+    object-fit: fill;
+    position: absolute;
+    transition: transform 0.8s ease-in-out ;
+}
+
+.back-arrow, .forward-arrow {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.559);
+    border-radius: 100%;
+    cursor: pointer;
+}
+.back-arrow {
+    top: 45%;
+    left: 2%;
+}
+.forward-arrow {
+    top: 45%;
+    right: 2%;
+}
+.dot-container {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 15px ;
+}
+.dot {
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 25px;
+    
+}
+.current-dot {
+    background-color: whitesmoke;
+}
