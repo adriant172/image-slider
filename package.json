@@ -1,0 +1,28 @@
+{
+  "name": "image-slider",
+  "version": "1.0.0",
+  "description": "Creating an image slider/carousel using  just basic HTML, CSS and Javascript.",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriant172/image-slider.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriant172/image-slider/issues"
+  },
+  "homepage": "https://github.com/adriant172/image-slider#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
